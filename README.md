@@ -109,10 +109,6 @@ The output folder includes:
 
 > A literature-derived stochastic behavioral simulation was developed using published logistic-regression coefficients and reported marginal distributions to examine counterfactual traffic scenarios.
 
-## Before making the repository public
-
-Add the full bibliographic citation/DOI of the source paper from which the published coefficients and marginal distributions were taken. Also review the supporting Word document for any information you do not want to make public.
-
 ## Automated reproducibility check
 
 This repository includes a GitHub Actions workflow at `.github/workflows/ci.yml`. On every push or pull request it installs the Python dependencies, runs the complete simulation, verifies the expected CSV/PNG outputs, and uploads the generated output folder as a workflow artifact. It can also be started manually from **Actions → Reproducibility check → Run workflow**.
